@@ -9,7 +9,7 @@ services:
       - N8N_BASIC_AUTH_ACTIVE=true
       - N8N_BASIC_AUTH_USER=admin
       - N8N_BASIC_AUTH_PASSWORD=marketpulse123
-      - WEBHOOK_URL=https://your-app.onrender.com
+      - WEBHOOK_URL=https://market-pulse-bot.onrender.com
     volumes:
       - n8n_data:/home/node/.n8n
 
